@@ -3,7 +3,7 @@ import Row from "./Row";
 
 function Table(props) {
     return (
-        <table class="table table-dark">
+        <table className="table table-dark">
             <thead>
                 <tr>
                     <th scope="col">Name</th>

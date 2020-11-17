@@ -15,7 +15,7 @@ class App extends Component {
   //   this.setState({ employees });
   // };
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+ 
   render() {
     return (
       <Table>
