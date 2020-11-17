@@ -4,23 +4,13 @@ function Row(props) {
     return (
         <tbody>
             <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+            <th scope="row">id={props.employee.id}</th>
+            <th scope="row">key={props.employee.id}</th>
+            <th scope="row">name={props.employee.name}</th>
+            <th scope="row">occupation={props.employee.occupation}</th>
+            <th scope="row">location={props.employee.location}</th>
             </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-            </tr>
+          
         </tbody>
     );
 }

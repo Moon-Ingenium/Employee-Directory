@@ -9,7 +9,7 @@ class App extends Component {
   state = {
     employees
   };
-
+  // filter example
   // removeEmployee = id => {
   //   // Filter this.state.friends for friends with an id not equal to the id being removed
   //   const employees = this.state.employees.filter(employee => employee.id !== id);
@@ -24,12 +24,8 @@ class App extends Component {
 
         {this.state.employees.map(employee => (
           <Row
-          // // removeFriend={this.removeFriend}
-          id={employee.id}
-          key={employee.id}
-          name={employee.name}
-            occupation={employee.occupation}
-          location={employee.location}
+            // // removeFriend={this.removeFriend}
+           
           />
         ))}
       </Table>

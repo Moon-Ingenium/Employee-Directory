@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Bob",
+    "occupation": "Fry Cook",
+    "location": "Seatle"
+  },
+  {
+    "id": 2,
+    "name": "Carl",
+    "occupation": "Restaurant Owner",
+    "location": "Portland"
+  },
+  {
+    "id": 3,
+    "name": "Jack",
+    "occupation": "Cashier",
+    "location": "Setale"
+  },
+  {
+    "id": 4,
+    "name": "Dexter",
+    "occupation": "Manager",
+    "location": "Seatle"
+  },
+  {
+    "id": 5,
+    "name": "Jeff",
+    "occupation": "District Manager",
+    "location": "Portland"
+  },
+  {
+    "id": 6,
+    "name": "Doug",
+    "occupation": "Server",
+    "location": "Seatle"
+  },
+  {
+    "id": 7,
+    "name": "Dolly",
+    "occupation": "Server",
+    "location": "Seatle"
+  },
+  {
+    "id": 8,
+    "name": "Johnny",
+    "occupation": "Head Cook",
+    "location": "Seatle"
+  },
+  {
+    "id": 9,
+    "name": "Joanne",
+    "occupation": "Host",
+    "location": "Seatle"
+  }
+]
