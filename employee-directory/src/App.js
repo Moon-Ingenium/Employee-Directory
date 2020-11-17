@@ -9,32 +9,25 @@ class App extends Component {
   };
   // filter 
   employeeName = name => {
-const employees = this.state.employees.filter(employee => employee.name);
- 
-this.setState({ employees });
+    const employees = this.state.employees.filter(employee => employee.name);
+
+    this.setState({ employees });
   };
 
- 
+
   render() {
     return (
       <Table>
-
-          <Row>
-           {this.state.employees.map(employee => (
-              <tbody>
-
-              <tr>
-              <th scope="row">id={employee.id}</th>
-              <th scope="row">key={employee.id}</th>
-              <th scope="row">name={employee.name}</th>
-              <th scope="row">occupation={employee.occupation}</th>
-              <th scope="row">location={employee.location}</th>
-              </tr>
-            
-          </tbody>
-         
+        {this.state.employees.map(employee => (
+          <Row
+            id={employee.id}
+            key={employee.id}
+            name={employee.name}
+            occupation={employee.occupation}
+            location={employee.location}
+              />
          ))}
-         </Row>
+
       </Table>
     );
   }
