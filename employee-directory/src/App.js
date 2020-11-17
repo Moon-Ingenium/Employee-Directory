@@ -7,13 +7,12 @@ class App extends Component {
   state = {
     employees
   };
-  // filter example
-  // removeEmployee = id => {
-  //   // Filter this.state.friends for friends with an id not equal to the id being removed
-  //   const employees = this.state.employees.filter(employee => employee.id !== id);
-  // Set this.state.friends equal to the new friends array
-  //   this.setState({ employees });
-  // };
+  // filter 
+  employeeName = name => {
+const employees = this.state.employees.filter(employee => employee.name);
+ 
+this.setState({ employees });
+  };
 
  
   render() {

@@ -5,11 +5,11 @@ function Row(props) {
         <tbody>
 
             <tr>
-            <th scope="row">id={props.employees.id}</th>
-            <th scope="row">key={props.employees.id}</th>
-            <th scope="row">name={props.employees.name}</th>
-            <th scope="row">occupation={props.employees.occupation}</th>
-            <th scope="row">location={props.employees.location}</th>
+            <th scope="row">{props.id}</th>
+            <th scope="row">{props.id}</th>
+            <th scope="row">{props.name}</th>
+            <th scope="row">{props.occupation}</th>
+            <th scope="row">{props.location}</th>
             </tr>
           
         </tbody>
