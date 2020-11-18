@@ -6,14 +6,14 @@ function Table(props) {
             <thead>
 
                 <tr>
-                    <th scope ="col">ID</th>
+                    <th scope="col">ID</th>
                     <th scope="col">Name</th>
                     <th scope="col">Occupation</th>
                     <th scope="col">Email</th>
-                    
+
                 </tr>
             </thead>
-                {props.children}
+            {props.children}
         </table>
     );
 }

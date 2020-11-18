@@ -2,33 +2,40 @@ import React, { Component } from "react";
 import Table from "./components/Table";
 import Row from "./components/Row";
 import employees from "./employees.json";
+import FilterForm from "./components/FilterForm";
 
 class App extends Component {
   state = {
-    employees
-  };
-  // filter 
-  employeeName = name => {
-    const employees = this.state.employees.filter(employee => employee.name);
-
-    this.setState({ employees });
+    employees,
+    name: '',
+    filteredEmployees: [...employees]
   };
 
+  handleChange = (e) => {
+    this.setState({
+      name: e.target.value,
+      filteredEmployees: this.state.employees.filter(employee => employee.name === e.target.value)
+    })
+    
+  }
 
   render() {
-    return (
+    const employees = this.state.filteredEmployees || this.state.employees;
+    return (<div>
+      <FilterForm handleChange={this.handleChange} />
       <Table>
-        {this.state.employees.map(employee => (
+        {employees.map(employee => (
           <Row
 
             id={employee.id}
             name={employee.name}
             occupation={employee.occupation}
             location={employee.email}
-              />
-         ))}
+          />
+        ))}
 
       </Table>
+      </div>
     );
   }
 }
