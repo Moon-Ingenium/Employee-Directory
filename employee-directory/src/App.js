@@ -20,11 +20,11 @@ class App extends Component {
       <Table>
         {this.state.employees.map(employee => (
           <Row
+
             id={employee.id}
-            key={employee.id}
             name={employee.name}
             occupation={employee.occupation}
-            location={employee.location}
+            location={employee.email}
               />
          ))}
 

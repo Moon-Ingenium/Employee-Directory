@@ -3,54 +3,54 @@
     "id": 1,
     "name": "Bob",
     "occupation": "Fry Cook",
-    "email": "Seatle"
+    "email": "bob@gmail.com"
   },
   {
     "id": 2,
     "name": "Carl",
     "occupation": "Restaurant Owner",
-    "email": "Portland"
+    "email": "carl@gmail.com"
   },
   {
     "id": 3,
     "name": "Jack",
     "occupation": "Cashier",
-    "email": "Setale"
+    "email": "jack@gmail.com"
   },
   {
     "id": 4,
     "name": "Dexter",
     "occupation": "Manager",
-    "email": "Seatle"
+    "email": "Dexter@gmail.com"
   },
   {
     "id": 5,
     "name": "Jeff",
     "occupation": "District Manager",
-    "email": "Portland"
+    "email": "JeffdaBoss@gmail.com"
   },
   {
     "id": 6,
     "name": "Doug",
     "occupation": "Server",
-    "email": "Seatle"
+    "email": "DougKitchen@gmail.com"
   },
   {
     "id": 7,
     "name": "Dolly",
     "occupation": "Server",
-    "email": "Seatle"
+    "email": "dollyisSweet@gmail.com"
   },
   {
     "id": 8,
     "name": "Johnny",
     "occupation": "Head Cook",
-    "email": "Seatle"
+    "email": "Johnnyboy@gmail.com"
   },
   {
     "id": 9,
     "name": "Joanne",
     "occupation": "Host",
-    "email": "Seatle"
+    "email": "Joanne@gmail.com"
   }
 ]
