@@ -4,7 +4,7 @@ class FilterForm extends Component {
         name: ""
       }
     
-    
+     
 
       render() {
         return (
@@ -13,6 +13,9 @@ class FilterForm extends Component {
             <input type="text" id="filter" 
               value={this.state.name} 
               onChange={this.props.handleChange}/>
+              <button type="submit" onClick={this.props.handleFormSubmit} className="btn btn-success">
+          Search
+        </button>
           </div>
           )
       }

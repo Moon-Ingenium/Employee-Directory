@@ -18,11 +18,17 @@ class App extends Component {
     })
     
   }
+  handleFormSubmit = event => {
+    event.preventDefault();
+    this.setState({
+      name:""
+    });
+  };
 
   render() {
     const employees = this.state.filteredEmployees || this.state.employees;
     return (<div>
-      <FilterForm handleChange={this.handleChange} />
+      <FilterForm handleChange={this.handleChange} handleFormSubmit = {this.handleFormSubmit}/>
       <Table>
         {employees.map(employee => (
           <Row
