@@ -12,7 +12,7 @@ class App extends Component {
 
   handleChange = (e) => {
     this.setState({
-      filteredEmployees: this.state.employees.filter(employee => employee.name === e.target.value)
+      filteredEmployees: this.state.employees.filter(employee => employee.name.includes(e.target.value))
     })
     
   }
