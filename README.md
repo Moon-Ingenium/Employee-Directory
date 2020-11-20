@@ -1,55 +1,26 @@
-# Unit 19 React Homework: Employee Directory
+#   Employee Directory
 
-## Overview
+# Getting Started with Create React App
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## User Story
+## Available Scripts
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+In the project directory, you can run:
 
-## Business Context
+### `yarn start`
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Acceptance Criteria
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Given a table of random users, when the user loads the page, a table of employees should render. 
+*   When the user loads the page, a table of employees should render with ID, name, occupation and email. 
+*   The user should be able to see the table with all employess and if the user clicks on occupation, it is sorted by positon
+*   The user may search by characters in name and the table displays employee ID, name, occupation, and email.
 
-The user should be able to:
+# Links
 
-  * Sort the table by at least one category
-
-  * Filter the users by at least one property.
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-Follow these guidelines for committing:
-
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-* Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* the URL to the deployed application
-
-* the URL to the Github repository
-
+*   [React Link](https://moon-ingenium.github.io/Employee-Directory/)
+*   [Github](https://github.com/Moon-Ingenium/Employee-Directory.git)
