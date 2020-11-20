@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Moon-Ingenium/Employee-Directory/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/Moon-Ingenium/Employee-Directory/static/js/main.6ecf37a9.chunk.js",
+    "main.js.map": "/Moon-Ingenium/Employee-Directory/static/js/main.6ecf37a9.chunk.js.map",
+    "runtime-main.js": "/Moon-Ingenium/Employee-Directory/static/js/runtime-main.a9a9b4f6.js",
+    "runtime-main.js.map": "/Moon-Ingenium/Employee-Directory/static/js/runtime-main.a9a9b4f6.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/Moon-Ingenium/Employee-Directory/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.9c8be240.chunk.js": "/Moon-Ingenium/Employee-Directory/static/js/2.9c8be240.chunk.js",
+    "static/js/2.9c8be240.chunk.js.map": "/Moon-Ingenium/Employee-Directory/static/js/2.9c8be240.chunk.js.map",
+    "static/js/3.093840db.chunk.js": "/Moon-Ingenium/Employee-Directory/static/js/3.093840db.chunk.js",
+    "static/js/3.093840db.chunk.js.map": "/Moon-Ingenium/Employee-Directory/static/js/3.093840db.chunk.js.map",
+    "index.html": "/Moon-Ingenium/Employee-Directory/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/Moon-Ingenium/Employee-Directory/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/Moon-Ingenium/Employee-Directory/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.9c8be240.chunk.js.LICENSE.txt": "/Moon-Ingenium/Employee-Directory/static/js/2.9c8be240.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9a9b4f6.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.9c8be240.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.6ecf37a9.chunk.js"
+  ]
+}
