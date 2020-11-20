@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Table from "./components/Table";
 import Row from "./components/Row";
+import Nav from "./components/Nav";
 import employees from "./employees.json";
 import FilterForm from "./components/FilterForm";
 
@@ -35,7 +36,9 @@ class App extends Component {
 
   render() {
     const employees = this.state.filteredEmployees || this.state.employees;
-    return (<div className="container">
+    return (<div>
+    <Nav/>
+    <div className="container">
       <FilterForm handleChange={this.handleChange} />
       <Table handleSort={this.handleSort}>
         {employees.map(employee => (
@@ -48,6 +51,7 @@ class App extends Component {
           />
         ))}
       </Table>
+    </div>
     </div>
     );
   }

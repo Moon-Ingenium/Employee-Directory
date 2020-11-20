@@ -2,8 +2,9 @@ import React from "react";
 
 function Table(props) {
     return (
+    <div>
         <table className="table table-dark">
-            <thead>
+          <thead>
                 <tr>
                     <th scope="col">ID</th>
                     <th scope="col">Name</th>
@@ -13,6 +14,7 @@ function Table(props) {
             </thead>
             {props.children}
         </table>
+        </div>
     );
 }
 export default Table;
