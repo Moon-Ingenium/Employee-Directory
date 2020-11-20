@@ -4,7 +4,7 @@ function Table(props) {
     return (
         <table className="table table-dark">
             <thead>
-                <tr onClick= {props.handleSort}>
+                <tr>
                     <th scope="col">ID</th>
                     <th scope="col">Name</th>
                     <th scope="col" onClick= {props.handleSort}>Occupation</th>
