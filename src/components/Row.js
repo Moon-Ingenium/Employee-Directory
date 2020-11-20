@@ -7,7 +7,7 @@ function Row(props) {
                 <th scope="row">{props.id}</th>
                 <th scope="row">{props.name}</th>
                 <th scope="row">{props.occupation}</th>
-                <th scope="row">{props.location}</th>
+                <th scope="row">{props.email}</th>
             </tr>
         </tbody>
     );

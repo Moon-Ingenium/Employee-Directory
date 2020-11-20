@@ -44,7 +44,7 @@ class App extends Component {
             id={employee.id}
             name={employee.name}
             occupation={employee.occupation}
-            location={employee.email}
+            email={employee.email}
           />
         ))}
       </Table>
