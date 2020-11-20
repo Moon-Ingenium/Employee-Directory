@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Bob",
-    "occupation": "Fry Cook",
+    "occupation": "Cook",
     "email": "bob@gmail.com"
   },
   {
@@ -26,7 +26,7 @@
   {
     "id": 5,
     "name": "Jeff",
-    "occupation": "District Manager",
+    "occupation": "Manager",
     "email": "JeffdaBoss@gmail.com"
   },
   {
@@ -44,7 +44,7 @@
   {
     "id": 8,
     "name": "Johnny",
-    "occupation": "Head Cook",
+    "occupation": "Cook",
     "email": "Johnnyboy@gmail.com"
   },
   {
