@@ -22,5 +22,5 @@ You will also see any lint errors in the console.
 
 # Links
 
-*   [React Link]()
+*   [React Link](https://moon-ingenium.github.io/Employee-Directory/)
 *   [Github](https://github.com/Moon-Ingenium/Employee-Directory.git)
